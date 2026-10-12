@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>777 PARADISE | Order</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            777 PARADISE
+        </a>
+
+        <div class="nav-links">
+
+            <a href="index.html">HOME</a>
+
+            <a href="collection.html">
+                COLLECTION
+            </a>
+
+            <a href="about.html">
+                ABOUT
+            </a>
+
+            <a href="order.html">
+                ORDER
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ORDER -->
+
+    <main class="order-page">
+
+        <div class="order-heading">
+
+            <p>777 PARADISE</p>
+
+            <h1>PLACE YOUR ORDER</h1>
+
+            <span>
+                Choose your style. We'll take care of the rest.
+            </span>
+
+        </div>
+
+
+        <div class="order-container">
+
+
+            <!-- ORDER FORM -->
+
+            <div class="order-box">
+
+                <form id="orderForm">
+
+
+                    <label for="name">
+                        CUSTOMER NAME
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name"
+                    >
+
+                    <small id="nameError"></small>
+
+
+                    <label for="email">
+                        EMAIL
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                    >
+
+                    <small id="emailError"></small>
+
+
+                    <label for="phone">
+                        PHONE NUMBER
+                    </label>
+
+                    <input
+                        type="text"
+                        id="phone"
+                        placeholder="10 digit phone number"
+                    >
+
+                    <small id="phoneError"></small>
+
+
+                    <label for="product">
+                        T-SHIRT
+                    </label>
+
+                    <select id="product">
+
+                        <option value="">
+                            Select T-Shirt
+                        </option>
+
+                        <option value="Paradise Black">
+                            Paradise Black — ₹1,299
+                        </option>
+
+                        <option value="Paradise White">
+                            Paradise White — ₹1,199
+                        </option>
+
+                        <option value="Paradise Red">
+                            Paradise Red — ₹1,399
+                        </option>
+
+                    </select>
+
+                    <small id="productError"></small>
+
+
+                    <label for="size">
+                        SIZE
+                    </label>
+
+                    <select id="size">
+
+                        <option value="">
+                            Select Size
+                        </option>
+
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="XXL">XXL</option>
+
+                    </select>
+
+                    <small id="sizeError"></small>
+
+
+                    <label for="quantity">
+                        QUANTITY
+                    </label>
+
+                    <input
+                        type="number"
+                        id="quantity"
+                        min="1"
+                        max="10"
+                        placeholder="1"
+                    >
+
+                    <small id="quantityError"></small>
+
+
+                    <label for="address">
+                        DELIVERY ADDRESS
+                    </label>
+
+                    <textarea
+                        id="address"
+                        placeholder="Enter your complete delivery address"
+                    ></textarea>
+
+                    <small id="addressError"></small>
+
+
+                    <button type="submit">
+                        PLACE ORDER
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <!-- ORDER INFO -->
+
+            <div class="order-info">
+
+                <p class="info-number">
+                    777
+                </p>
+
+                <h2>
+                    WEAR YOUR
+                    <span>PARADISE.</span>
+                </h2>
+
+                <p>
+                    Premium streetwear for people
+                    who create their own world.
+                </p>
+
+                <div class="order-features">
+
+                    <div>
+                        <strong>01</strong>
+                        <span>Premium Quality</span>
+                    </div>
+
+                    <div>
+                        <strong>02</strong>
+                        <span>Comfort Fit</span>
+                    </div>
+
+                    <div>
+                        <strong>03</strong>
+                        <span>Made For You</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            777 PARADISE
+        </div>
+
+        <p>
+            WEAR YOUR PARADISE
+        </p>
+
+        <span>
+            © 2026 777 PARADISE
+        </span>
+
+    </footer>
+
+
+    <<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
